@@ -1,10 +1,9 @@
 # Horiseon project
 
-This project is for the refactor of **HTML and CSS** code. For this project,  all the 
-HTML have semantic elements which meets accesibility standards. The CSS codes has been consolidated and follows a logical structure independent of styling and positioning. All the images have *alt* attributes.
+## Description
+This project is for the refactor of **HTML and CSS** code. For this project,  all the HTML have semantic elements which meets accesibility standards. The CSS codes has been consolidated and follows a logical structure independent of styling and positioning. All the images have *alt* attributes.
 
-## Screenshots
-Here are some of the screenshots after the refactor of code:
+Here are some of the screenshots after the refactor:
 ![First page of screenshot](./assets/images/Screenshot%201.png)
 ![Second page of screenshot](./assets/images/Screenshot%202.png)
 
