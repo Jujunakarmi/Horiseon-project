@@ -1,13 +1,16 @@
+/*Sets total width and height of whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Changes body background to given color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Changes the font, background color and font color of header element and adds padding*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Changes the header and h1 display in the navigation bar to display in inline block and changes size of the font */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Changes the font color of class header,h1 and class seo  */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Changes the top padding, right margin, float moves the nav section to right, font family changes the font with given font if the given font is not available then it changes to the other one which is alternatively given and font size changes the size of the font */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* List style type removes the bullet points */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Changes display to inline as well as block and adds the left margin only */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes font color and removes the text decoration if there is any */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Changes paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* Adjusts the height and width of the image with bottom margin and has background image with given URL, background size cover make the image cover full in the page and background position defines the postion of the image */
 .meeting-img {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Moves given class to left with given margin on the right side only */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Moves given class to right with given margin to left only */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Changes width, display property and margin left only */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changes right margin with padding,clear moves the floating element  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,23 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Changes margin for bottom and color for all three classes */
 .benefit-cost, .benefit-lead, .benefit-brand  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Changes margin on bottom and aligns text to center for all three classes */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Changes the display property to block , margin 10px for top and bottom and auto for left and right,max-width stops the image to be more than given property for all three classes  */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Changes bottom margin,padding and height.Font family changes the font. Background color changes color of background and color changes font color */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,23 +130,26 @@ p {
     color: #ffffff;
 }
 
+/* Prevents after reaching the max height */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-
+/* Changes bottom margin and font size */
 .social-media-marketing h2, .search-engine-optimization h2, .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Changes padding, font family changes font if it doesnt have one it will choose different given one, text align centers the element */
 footer {
     padding: 30px;
-    clear: both;
+    clear:both ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+/* Changes font size */
 footer h2 {
     font-size: 20px;
 }
